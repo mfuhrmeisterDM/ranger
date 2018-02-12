@@ -59,6 +59,19 @@
        <include>org.apache.ranger:ranger-hdfs-plugin</include>
      </includes>
     </moduleSet>
+    
+    <moduleSet>
+     <binaries>
+        <includeDependencies>false</includeDependencies>
+        <outputDirectory>/ews/webapp/WEB-INF/classes/ranger-plugins/datameer</outputDirectory>
+        <unpack>false</unpack>
+        <directoryMode>755</directoryMode>
+        <fileMode>644</fileMode>
+     </binaries>
+     <includes>
+       <include>org.apache.ranger:ranger-datameer-plugin</include>
+     </includes>
+    </moduleSet>
 
     <moduleSet>
      <binaries>

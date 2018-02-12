@@ -78,6 +78,7 @@
         <module>embeddedwebserver</module>
         <module>kms</module>
         <module>hbase-agent</module>
+        <module>datameer-agent</module>
         <module>hdfs-agent</module>
         <module>hive-agent</module>
         <module>knox-agent</module>
@@ -94,6 +95,7 @@
         <module>ranger-util</module>
         <module>plugin-kms</module>
         <module>tagsync</module>
+        <module>ranger-datameer-plugin-shim</module>
         <module>ranger-hdfs-plugin-shim</module>
         <module>ranger-plugin-classloader</module>
         <module>ranger-hive-plugin-shim</module>
@@ -416,6 +418,7 @@
                     <configuration>
                         <descriptors>
                             <descriptor>src/main/assembly/hdfs-agent.xml</descriptor>
+                            <descriptor>src/main/assembly/datameer-agent.xml</descriptor>
                             <descriptor>src/main/assembly/hive-agent.xml</descriptor>
                             <descriptor>src/main/assembly/hbase-agent.xml</descriptor>
                             <descriptor>src/main/assembly/knox-agent.xml</descriptor>
